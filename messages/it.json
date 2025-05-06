@@ -1,0 +1,189 @@
+{
+  "Common": {
+    "disclaimer_txt": "Tutte le proprietà menzionate di seguito sono state osservate durante i test di laboratorio. Sono fornite solo a scopo informativo. Le informazioni contenute nelle descrizioni non sono approvate dall'EFSA, dal GIS o dal GIF. Questa sostanza non è un prodotto alimentare né un integratore alimentare. Non è adatta al consumo umano. Il prodotto è classificato come reagente chimico / materiale di riferimento autorizzato alla vendita nell'UE. Può essere utilizzato solo per la ricerca scientifica. Ulteriori informazioni sul prodotto sono disponibili nella scheda di sicurezza, che mettiamo a disposizione. I prodotti sono disponibili per istituzioni o privati legati ad attività di ricerca o di laboratorio.",
+    "add_to_cart": "Aggiungi al carrello",
+    "reviews": "Recensioni",
+    "Star": "Stella",
+    "blog": "Blog",
+    "toc": "Indice",
+    "total": "Totale",
+    "delivery_fee": "Spese di spedizione",
+    "subtotal": "Subtotale",
+    "contact_title": "Contatti e Supporto",
+    "contact_desc": "Hai domande sulla terapia a base di tirzepatide? Vuoi saperne di più su prodotti specifici come il semaglutide o il retatrutide? Contattaci oggi stesso! Il nostro team di esperti è pronto a fornirti tutte le informazioni necessarie. Visita la nostra pagina di contatto o chiama il nostro servizio clienti - siamo a tua disposizione.",
+    "navigation": "Navigation",
+    "close_menu": "Close Menu"
+  },
+  "HomePage": {
+    "title": "Tirze-Slim: Peptidi Innovativi per una Perdita di Peso Scientifica e Sostenibile",
+    "banner_btn": "Sfoglia il negozio",
+    "blog_btn": "Vedi i blog"
+  },
+  "Form": {
+    "title": "Contattaci",
+    "name": "Nome",
+    "phone": "Numero di telefono",
+    "phone_placeholder": "Inserisci il tuo numero di telefono",
+    "name_placeholder": "Inserisci il tuo nome completo",
+    "email": "Email",
+    "email_placeholder": "Il tuo indirizzo email",
+    "message": "Messaggio",
+    "message_placeholder": "Il tuo commento",
+    "review_placeholder": "La tua recensione",
+    "checkbox_label": "Acconsento al trattamento dei miei dati personali contenuti nel modulo di contatto per le esigenze necessarie alla realizzazione e al monitoraggio del processo di contatto in conformità con la legge del 29.08.1997 sulla protezione dei dati personali (Gazzetta Ufficiale del 2002, n. 101, voce 926 con successive modifiche).",
+    "Submit": "Invia",
+    "loading": "Elaborazione",
+    "search_placeholder": "Cerca prodotti",
+    "review_form_title": "Lascia una recensione",
+    "rating_placeholder": "Scegli una valutazione",
+    "review_post_btn": "Pubblica la recensione",
+    "checkout_form_title": "Indirizzo",
+    "delivery_opt": "Opzioni di spedizione",
+    "pmn": "Numero punto di ritiro",
+    "country": "Paese",
+    "country_placeholder": "Inserisci il tuo paese",
+    "address": "Indirizzo",
+    "address_placeholder": "Inserisci l'indirizzo completo - Numero civico, Via, Città",
+    "name_required": "Il nome è obbligatorio",
+    "email_required": "L'email è obbligatoria",
+    "email_invalid": "Email non valida",
+    "message_required": "Il messaggio è obbligatorio",
+    "submission_failed": "Invio fallito",
+    "submission_success": "Successo"
+  },
+  "Footer": {
+    "contact_info": "Informazioni di contatto",
+    "imp_link": "Link importanti",
+    "community": "Comunità",
+    "footer_text": "Il tuo partner per raggiungere i tuoi obiettivi di salute con metodi affidabili e facilmente accessibili.",
+    "top_products": "Prodotti più venduti",
+    "all_rights_reserved": "Tutti i diritti riservati",
+    "newsletter": "Notiziario"
+  },
+  "Links": {
+    "FAQ's": "FAQ",
+    "Contact": "Contatti",
+    "Delivery-and-Payment": "Spedizione e pagamento",
+    "Shop Rules": "Termini e condizioni",
+    "Privacy": "Privacy",
+    "Affiliate Program": "Programma di affiliazione",
+    "Blogs": "Blog",
+    "Research": "Ricerca",
+    "Shop": "Negozio",
+    "What is GLP+1+GIP": "Cos'è GLP+1+GIP",
+    "How GLP-1+GIP works": "Come funziona GLP-1+GIP",
+    "Effects after GLP-1+GIP": "Effetti dopo GLP-1+GIP",
+    "GLP-1+GIP vs other analogues": "GLP-1+GIP vs altri analoghi",
+    "GLP-1+GIP": "GLP-1+GIP",
+    "Home": "Home",
+    "Semaglutide": "Semaglutide",
+    "Retatrutide Pen": "Penna Retatrutide",
+    "Sema+Cagri Pen": "Penna Sema+Cagri",
+    "Info Links": "Info Links"
+  },
+  "Cart": {
+    "cart_title": "PRODOTTI NEL CARRELLO",
+    "empty_cart": "Nessun prodotto nel carrello",
+    "cart_ttl_amt": "Importo totale del carrello",
+    "chkt": "Vai alla cassa",
+    "price": "Prezzo"
+  },
+  "Product_page": {
+    "weight_loss": "Programma di perdita di peso",
+    "legal_desc": "La sostanza non è un prodotto alimentare né un integratore alimentare, non è adatta al consumo umano. Il prodotto è classificato come reagente chimico autorizzato alla vendita nell'Unione Europea, può essere utilizzato solo per la ricerca scientifica.",
+    "usp": {
+      "return_usp": "Politica di reso entro 14 giorni",
+      "lab_ql_usp": "Qualità di laboratorio",
+      "shopping_usp": "Acquisti sicuri",
+      "shipping": "Tempi di spedizione",
+      "shipping_time": "1-2 giorni lavorativi",
+      "quality": "garanzia di qualità",
+      "stand_lab": "standard di laboratorio"
+    },
+    "product_warning": {
+      "title": "Prodotto destinato alla ricerca",
+      "additional_info": "INFORMAZIONI AGGIUNTIVE:",
+      "point_one": "Il prodotto (sostanza) non è un prodotto alimentare né un integratore alimentare, non è adatto al consumo umano.",
+      "point_two": "Tenere fuori dalla portata dei bambini.",
+      "point_three": "Conservare il contenitore ben chiuso.",
+      "point_four": "Conservare in un luogo asciutto, fresco e al riparo dalla luce; proteggere dall'umidità.",
+      "point_five": "Conservare unicamente nel contenitore originale.",
+      "point_six": "Evitare il contatto durante la gravidanza e l'allattamento.",
+      "point_seven": "In caso di malessere o effetti indesiderati legati al contatto con la sostanza, consultare un medico."
+    },
+    "seo": {
+      "title_suffix": "Migliore Soluzione per la Perdita di Peso | Tirze-Slim",
+      "description": "Acquista {productName} - Peptide per la perdita di peso di altissima qualità con risultati certificati. Spedizione rapida in Italia. Garanzia di qualità al 100%.",
+      "keywords": "acquista {productName}, perdita di peso, Italia, certificato, peptide",
+      "og_title": "Soluzione di Qualità Superiore per la Perdita di Peso - {productName}",
+      "og_description": "Scopri {productName} - Soluzione efficace per il controllo del peso con risultati clinici. Ordina ora!",
+      "twitter_title": "Perdita di Peso Efficace con {productName}",
+      "twitter_description": "Ottieni {productName} per i migliori risultati nel controllo del peso. Qualità certificata. Ordina ora!"
+    },
+    "price_label": "PREZZO",
+    "product_image_alt": "Presentazione visiva del prodotto"
+  },
+  "Review_page": {
+    "based_on_ratings": "Basato su {count} {count, plural, one {recensione} other {recensioni}}",
+    "load_more": "Carica altre recensioni",
+    "loading": "Caricamento...",
+    "no_reviews": "Nessuna recensione pubblicata al momento",
+    "average_rating": "Valutazione media"
+  },
+  "Checkout": {
+    "chktout": "Verifica",
+    "ordr_summary": "Riepilogo dell'ordine",
+    "delivery_charges": "Spese di spedizione"
+  },
+  "Order_Info_Page": {
+    "order_msg": "Il nostro consulente clienti ti invierà il conto bancario su cui dovrai effettuare il pagamento entro 2 ore dall'ordine. Il tuo ordine sarà confermato solo dopo la ricezione del pagamento.",
+    "detail_info": "Dettagli",
+    "orderId": "Numero d'ordine",
+    "date": "Ordinato il",
+    "shipping_address": "Indirizzo di spedizione",
+    "ordr_status": "Stato dell'ordine",
+    "status": "stato",
+    "ordrd_products": "Prodotti ordinati"
+  },
+  "BlogListPage": {
+    "seo": {
+      "title": "Tutti gli Articoli | Blog Tirze-Slim",
+      "description": "Sfoglia i nostri articoli completi e le ricerche scientifiche sui peptidi per la perdita di peso, l'ottimizzazione del metabolismo e il biohacking.",
+      "keywords": "articoli del blog, ricerche sulla perdita di peso, studi sui peptidi, biohacking, metabolismo",
+      "og_title": "Raccolta Completa di Articoli - Ricerca Tirze-Slim",
+      "og_description": "Esplora tutti i nostri articoli dettagliati e i lavori di ricerca sulle moderne soluzioni per la perdita di peso e l'ottimizzazione metabolica.",
+      "og_image_alt": "Raccolta di articoli del blog Tirze-Slim",
+      "twitter_title": "Articoli di Ricerca sulla Perdita di Peso | Tirze-Slim",
+      "twitter_description": "Scopri la nostra raccolta completa di articoli basati sulla ricerca riguardanti le terapie peptidiche e l'ottimizzazione metabolica."
+    },
+    "title": "Blog di Ricerca",
+    "description": "Gli ultimi articoli e ricerche sulle terapie peptidiche, il controllo del peso e l'ottimizzazione del metabolismo",
+    "reading_time": "minuti di lettura",
+    "featured_image_alt": "Immagine principale per l'articolo: {title}",
+    "pagination": {
+      "previous": "Precedente",
+      "next": "Successivo",
+      "page": "Pagina {current} di {total}"
+    },
+    "schema": {
+      "name": "Tutti gli Articoli",
+      "description": "Elenco completo di articoli e ricerche scientifiche sui peptidi per la perdita di peso"
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "blog": "Blog"
+    }
+  },
+  "ArticlePage": {
+    "seo": {
+      "title_suffix": "| Tirze-Slim",
+      "default_description": "Leggi il nostro articolo dettagliato su",
+      "default_keywords": "articolo, post del blog, ricerca"
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "blog": "Blog"
+    },
+    "no_article": "Articolo non trovato"
+  }
+}
