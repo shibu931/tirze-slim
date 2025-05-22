@@ -17,7 +17,7 @@ import ArticlePage from '@/components/Common/ArticlePage';
 import ProductImage from '@/components/ProductPage/ProductImage';
 
 export async function generateMetadata({ params }) {
-  const { slug } = params;
+  const { slug, locale } = params;
   const { data: product } = await getProduct(slug);
   const t = await getTranslations('Product_page');
   return {
@@ -25,10 +25,10 @@ export async function generateMetadata({ params }) {
     description: t('seo.description', { productName: product.productName }),
     keywords: product?.keywords,
     alternates: {
-      canonical: `${process.env.NEXT_PUBLIC_BASE_URL}/products/${slug}`,
+      canonical: `${process.env.NEXT_PUBLIC_BASE_URL}/${locale}/product/${slug}`,
       languages: {
-        'en': `${process.env.NEXT_PUBLIC_BASE_URL}/en/products/${slug}`,
-        'pl': `${process.env.NEXT_PUBLIC_BASE_URL}/pl/products/${slug}`,
+        'en': `${process.env.NEXT_PUBLIC_BASE_URL}/en/product/${slug}`,
+        'it': `${process.env.NEXT_PUBLIC_BASE_URL}/it/product/${slug}`,
       },
     },
     openGraph: {
@@ -42,7 +42,7 @@ export async function generateMetadata({ params }) {
           alt: product.productName,
         },
       ],
-      url: `${process.env.NEXT_PUBLIC_BASE_URL}/products/${slug}`,
+      url: `${process.env.NEXT_PUBLIC_BASE_URL}/product/${slug}`,
       type: 'website',
     },
     twitter: {
@@ -77,7 +77,7 @@ const ProductSchema = ({ product }) => {
     },
     "offers": {
       "@type": "Offer",
-      "url": `${process.env.NEXT_PUBLIC_BASE_URL}/products/${product.slug}`,
+      "url": `${process.env.NEXT_PUBLIC_BASE_URL}/product/${product.slug}`,
       "priceCurrency": currency,
       "price": product.productPrice,
       "availability": "https://schema.org/InStock",

@@ -8,25 +8,26 @@ import { NextIntlClientProvider, hasLocale } from 'next-intl';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import { populateDB } from "@/lib/actions/product.action";
+import Script from "next/script";
 
 const poppins = Poppins({
   subsets: ["latin"],
-  weight:["100", "200", "300", "400", "500", "600", "700", "800", "900"]
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"]
 });
 
 const metadataTranslations = {
   en: {
-    title: "Tirze-Slim | Tirzepatide in France | GIP + GLP-1 - Check it out",
-    description: "Discover Tirze-Slim France — your trusted source for cutting-edge peptides tirzepatide, semaglutide, ensuring top-tier quality for rigorous scientific research.",
-    keywords: ["Tirzepatide", "tirzepatide weight loss", "tirzepatide compound", "compound tirzepatide", "semaglutide", "semaglutide weight loss", "compounded semaglutide", "Retatrutide", "retatrutide peptide", "retatrutide research peptide", "retatrutide dosage", "Cagrilintide", "cagrilintide peptide", "cagrilintide dosage"],
+    title: "Tirzepatide | GIP + GLP-1 Tirze-slim – Order Effectively Online",
+    description: "Order GIP + GLP-1 on Tirze-slim: effective products like semaglutide and tirzepatide for weight loss. Guaranteed quality and fast delivery to Italy.",
+    keywords: ["Tirzepatide, tirzepatide weight loss, tirzepatide compound, compound tirzepatide, semaglutide, semaglutide weight loss, compounded semaglutide, Retatrutide, retatrutide peptide, retatrutide research peptide, retatrutide dosage, Cagrilintide, cagrilintide peptide, cagrilintide dosage"],
     openGraph: {
       images: ['/1.webp'],
     }
   },
-  fr: {
-    title: "Tirzépatide en France | GIP + GLP-1 | Tirze-Slim - Commandez",
-    description: "Découvrez Tirze-Slim France, votre source de confiance pour les peptides de pointe tirzepatide, sémaglutide, garantissant une qualité de premier ordre pour une recherche scientifique rigoureuse.",
-    keywords: ["Tirzépatide", "tirzépatide en france", "tirzépatide france acheter", "Sémaglutide", "sémaglutide france", "sémaglutide perte de poids", "Retatrutide", "retatrutide dosage", "retatrutide france", "Cagrilintide", "cagrilintide and semaglutide 2.4 mg"],
+  it: {
+    title: "Tirzepatide | GIP + GLP-1 Tirze-slim – Ordina online in modo efficace",
+    description: "Ordina GIP + GLP-1 su Tirze-slim: prodotti efficaci come semaglutide e tirzepatide per la perdita di peso. Qualità garantita e consegna veloce in Italia.",
+    keywords: ["Tirzepatide, tirzepatide weight loss, tirzepatide compound, compound tirzepatide, semaglutide, semaglutide weight loss, compounded semaglutide, Retatrutide, retatrutide peptide, retatrutide research peptide, retatrutide dosage, Cagrilintide, cagrilintide peptide, cagrilintide dosage, semaglutide in Italy"],
     openGraph: {
       images: ['/1.webp'],
     }
@@ -45,7 +46,7 @@ export async function generateMetadata({ params }) {
       canonical: `${process.env.NEXT_PUBLIC_BASE_URL}/${locale}`,
       languages: {
         'en': process.env.NEXT_PUBLIC_BASE_URL + '/en',
-        'fr': process.env.NEXT_PUBLIC_BASE_URL + '/fr',
+        'it': process.env.NEXT_PUBLIC_BASE_URL + '/it',
       },
     },
     openGraph: {
@@ -156,6 +157,17 @@ export default async function RootLayout({ children, params }) {
     <html lang={locale}>
       <head>
         <StructuredData locale={locale} />
+        <meta name="google-site-verification" content="Ko2-cMrxnKDFKwvDsx11Z0Yx91z_u58fK-yZuEZQiL8" />
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-ZLREM0YTH8"></Script>
+        <Script>
+          {
+            `window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-ZLREM0YTH8');
+            `
+          }
+        </Script>
       </head>
       <body
         className={`${poppins.className} antialiased`}

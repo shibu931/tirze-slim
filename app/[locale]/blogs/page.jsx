@@ -13,7 +13,7 @@ export async function generateMetadata() {
       canonical: `${process.env.NEXT_PUBLIC_BASE_URL}/blogs`,
       languages: {
         'en': `${process.env.NEXT_PUBLIC_BASE_URL}/en/blogs`,
-        'pl': `${process.env.NEXT_PUBLIC_BASE_URL}/pl/blogs`,
+        'it': `${process.env.NEXT_PUBLIC_BASE_URL}/it/blogs`,
       },
     },
     openGraph: {
