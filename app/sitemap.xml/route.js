@@ -2,7 +2,7 @@ import { getAllBlogsSlug } from '@/lib/actions/article.action';
 import { NextResponse } from 'next/server';
 
 export async function GET() {
-  const baseUrl = 'https://tirze-fit.com'; 
+  const baseUrl = 'https://tirze-slim.com'; 
 
   // Dynamically fetch slugs or routes from your CMS, DB, or API here
   const staticPages = [
